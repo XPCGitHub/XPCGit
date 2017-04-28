@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1C53351EB33D0B00EB6D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C53341EB33D0B00EB6D59 /* main.m */; };
+		EA1C53381EB33D0B00EB6D59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C53371EB33D0B00EB6D59 /* AppDelegate.m */; };
+		EA1C533B1EB33D0B00EB6D59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C533A1EB33D0B00EB6D59 /* ViewController.m */; };
+		EA1C533E1EB33D0B00EB6D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1C533C1EB33D0B00EB6D59 /* Main.storyboard */; };
+		EA1C53411EB33D0B00EB6D59 /* newHellowWorldText.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA1C533F1EB33D0B00EB6D59 /* newHellowWorldText.xcdatamodeld */; };
+		EA1C53431EB33D0B00EB6D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1C53421EB33D0B00EB6D59 /* Assets.xcassets */; };
+		EA1C53461EB33D0B00EB6D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1C53441EB33D0B00EB6D59 /* LaunchScreen.storyboard */; };
+		EA1C53511EB33D0C00EB6D59 /* newHellowWorldTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C53501EB33D0C00EB6D59 /* newHellowWorldTextTests.m */; };
+		EA1C535C1EB33D0C00EB6D59 /* newHellowWorldTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1C535B1EB33D0C00EB6D59 /* newHellowWorldTextUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA1C534D1EB33D0C00EB6D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1C53281EB33D0A00EB6D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1C532F1EB33D0A00EB6D59;
+			remoteInfo = newHellowWorldText;
+		};
+		EA1C53581EB33D0C00EB6D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA1C53281EB33D0A00EB6D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA1C532F1EB33D0A00EB6D59;
+			remoteInfo = newHellowWorldText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1C53301EB33D0A00EB6D59 /* newHellowWorldText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newHellowWorldText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C53341EB33D0B00EB6D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA1C53361EB33D0B00EB6D59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA1C53371EB33D0B00EB6D59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA1C53391EB33D0B00EB6D59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA1C533A1EB33D0B00EB6D59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA1C533D1EB33D0B00EB6D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA1C53401EB33D0B00EB6D59 /* newHellowWorldText.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = newHellowWorldText.xcdatamodel; sourceTree = "<group>"; };
+		EA1C53421EB33D0B00EB6D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA1C53451EB33D0B00EB6D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA1C53471EB33D0B00EB6D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1C534C1EB33D0C00EB6D59 /* newHellowWorldTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newHellowWorldTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C53501EB33D0C00EB6D59 /* newHellowWorldTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newHellowWorldTextTests.m; sourceTree = "<group>"; };
+		EA1C53521EB33D0C00EB6D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA1C53571EB33D0C00EB6D59 /* newHellowWorldTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newHellowWorldTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1C535B1EB33D0C00EB6D59 /* newHellowWorldTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newHellowWorldTextUITests.m; sourceTree = "<group>"; };
+		EA1C535D1EB33D0C00EB6D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1C532D1EB33D0A00EB6D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C53491EB33D0C00EB6D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C53541EB33D0C00EB6D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1C53271EB33D0A00EB6D59 = {
+			isa = PBXGroup;
+			children = (
+				EA1C53321EB33D0A00EB6D59 /* newHellowWorldText */,
+				EA1C534F1EB33D0C00EB6D59 /* newHellowWorldTextTests */,
+				EA1C535A1EB33D0C00EB6D59 /* newHellowWorldTextUITests */,
+				EA1C53311EB33D0A00EB6D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1C53311EB33D0A00EB6D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C53301EB33D0A00EB6D59 /* newHellowWorldText.app */,
+				EA1C534C1EB33D0C00EB6D59 /* newHellowWorldTextTests.xctest */,
+				EA1C53571EB33D0C00EB6D59 /* newHellowWorldTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1C53321EB33D0A00EB6D59 /* newHellowWorldText */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C53361EB33D0B00EB6D59 /* AppDelegate.h */,
+				EA1C53371EB33D0B00EB6D59 /* AppDelegate.m */,
+				EA1C53391EB33D0B00EB6D59 /* ViewController.h */,
+				EA1C533A1EB33D0B00EB6D59 /* ViewController.m */,
+				EA1C533C1EB33D0B00EB6D59 /* Main.storyboard */,
+				EA1C53421EB33D0B00EB6D59 /* Assets.xcassets */,
+				EA1C53441EB33D0B00EB6D59 /* LaunchScreen.storyboard */,
+				EA1C53471EB33D0B00EB6D59 /* Info.plist */,
+				EA1C533F1EB33D0B00EB6D59 /* newHellowWorldText.xcdatamodeld */,
+				EA1C53331EB33D0B00EB6D59 /* Supporting Files */,
+			);
+			path = newHellowWorldText;
+			sourceTree = "<group>";
+		};
+		EA1C53331EB33D0B00EB6D59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C53341EB33D0B00EB6D59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA1C534F1EB33D0C00EB6D59 /* newHellowWorldTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C53501EB33D0C00EB6D59 /* newHellowWorldTextTests.m */,
+				EA1C53521EB33D0C00EB6D59 /* Info.plist */,
+			);
+			path = newHellowWorldTextTests;
+			sourceTree = "<group>";
+		};
+		EA1C535A1EB33D0C00EB6D59 /* newHellowWorldTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA1C535B1EB33D0C00EB6D59 /* newHellowWorldTextUITests.m */,
+				EA1C535D1EB33D0C00EB6D59 /* Info.plist */,
+			);
+			path = newHellowWorldTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1C532F1EB33D0A00EB6D59 /* newHellowWorldText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1C53601EB33D0C00EB6D59 /* Build configuration list for PBXNativeTarget "newHellowWorldText" */;
+			buildPhases = (
+				EA1C532C1EB33D0A00EB6D59 /* Sources */,
+				EA1C532D1EB33D0A00EB6D59 /* Frameworks */,
+				EA1C532E1EB33D0A00EB6D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newHellowWorldText;
+			productName = newHellowWorldText;
+			productReference = EA1C53301EB33D0A00EB6D59 /* newHellowWorldText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA1C534B1EB33D0C00EB6D59 /* newHellowWorldTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1C53631EB33D0C00EB6D59 /* Build configuration list for PBXNativeTarget "newHellowWorldTextTests" */;
+			buildPhases = (
+				EA1C53481EB33D0C00EB6D59 /* Sources */,
+				EA1C53491EB33D0C00EB6D59 /* Frameworks */,
+				EA1C534A1EB33D0C00EB6D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1C534E1EB33D0C00EB6D59 /* PBXTargetDependency */,
+			);
+			name = newHellowWorldTextTests;
+			productName = newHellowWorldTextTests;
+			productReference = EA1C534C1EB33D0C00EB6D59 /* newHellowWorldTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA1C53561EB33D0C00EB6D59 /* newHellowWorldTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1C53661EB33D0C00EB6D59 /* Build configuration list for PBXNativeTarget "newHellowWorldTextUITests" */;
+			buildPhases = (
+				EA1C53531EB33D0C00EB6D59 /* Sources */,
+				EA1C53541EB33D0C00EB6D59 /* Frameworks */,
+				EA1C53551EB33D0C00EB6D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA1C53591EB33D0C00EB6D59 /* PBXTargetDependency */,
+			);
+			name = newHellowWorldTextUITests;
+			productName = newHellowWorldTextUITests;
+			productReference = EA1C53571EB33D0C00EB6D59 /* newHellowWorldTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA1C53281EB33D0A00EB6D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "夏鹏程";
+				TargetAttributes = {
+					EA1C532F1EB33D0A00EB6D59 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F8EC4P58N8;
+						ProvisioningStyle = Automatic;
+					};
+					EA1C534B1EB33D0C00EB6D59 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA1C532F1EB33D0A00EB6D59;
+					};
+					EA1C53561EB33D0C00EB6D59 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA1C532F1EB33D0A00EB6D59;
+					};
+				};
+			};
+			buildConfigurationList = EA1C532B1EB33D0A00EB6D59 /* Build configuration list for PBXProject "newHellowWorldText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA1C53271EB33D0A00EB6D59;
+			productRefGroup = EA1C53311EB33D0A00EB6D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1C532F1EB33D0A00EB6D59 /* newHellowWorldText */,
+				EA1C534B1EB33D0C00EB6D59 /* newHellowWorldTextTests */,
+				EA1C53561EB33D0C00EB6D59 /* newHellowWorldTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1C532E1EB33D0A00EB6D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C53461EB33D0B00EB6D59 /* LaunchScreen.storyboard in Resources */,
+				EA1C53431EB33D0B00EB6D59 /* Assets.xcassets in Resources */,
+				EA1C533E1EB33D0B00EB6D59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C534A1EB33D0C00EB6D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C53551EB33D0C00EB6D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA1C532C1EB33D0A00EB6D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C533B1EB33D0B00EB6D59 /* ViewController.m in Sources */,
+				EA1C53411EB33D0B00EB6D59 /* newHellowWorldText.xcdatamodeld in Sources */,
+				EA1C53381EB33D0B00EB6D59 /* AppDelegate.m in Sources */,
+				EA1C53351EB33D0B00EB6D59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C53481EB33D0C00EB6D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C53511EB33D0C00EB6D59 /* newHellowWorldTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA1C53531EB33D0C00EB6D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1C535C1EB33D0C00EB6D59 /* newHellowWorldTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA1C534E1EB33D0C00EB6D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1C532F1EB33D0A00EB6D59 /* newHellowWorldText */;
+			targetProxy = EA1C534D1EB33D0C00EB6D59 /* PBXContainerItemProxy */;
+		};
+		EA1C53591EB33D0C00EB6D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA1C532F1EB33D0A00EB6D59 /* newHellowWorldText */;
+			targetProxy = EA1C53581EB33D0C00EB6D59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA1C533C1EB33D0B00EB6D59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1C533D1EB33D0B00EB6D59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA1C53441EB33D0B00EB6D59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA1C53451EB33D0B00EB6D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA1C535E1EB33D0C00EB6D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA1C535F1EB33D0C00EB6D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA1C53611EB33D0C00EB6D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8EC4P58N8;
+				INFOPLIST_FILE = newHellowWorldText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cimi.newHellowWorldText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA1C53621EB33D0C00EB6D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8EC4P58N8;
+				INFOPLIST_FILE = newHellowWorldText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cimi.newHellowWorldText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA1C53641EB33D0C00EB6D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = newHellowWorldTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cimi.newHellowWorldTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newHellowWorldText.app/newHellowWorldText";
+			};
+			name = Debug;
+		};
+		EA1C53651EB33D0C00EB6D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = newHellowWorldTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cimi.newHellowWorldTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newHellowWorldText.app/newHellowWorldText";
+			};
+			name = Release;
+		};
+		EA1C53671EB33D0C00EB6D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = newHellowWorldTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cimi.newHellowWorldTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = newHellowWorldText;
+			};
+			name = Debug;
+		};
+		EA1C53681EB33D0C00EB6D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = newHellowWorldTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cimi.newHellowWorldTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = newHellowWorldText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA1C532B1EB33D0A00EB6D59 /* Build configuration list for PBXProject "newHellowWorldText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1C535E1EB33D0C00EB6D59 /* Debug */,
+				EA1C535F1EB33D0C00EB6D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1C53601EB33D0C00EB6D59 /* Build configuration list for PBXNativeTarget "newHellowWorldText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1C53611EB33D0C00EB6D59 /* Debug */,
+				EA1C53621EB33D0C00EB6D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA1C53631EB33D0C00EB6D59 /* Build configuration list for PBXNativeTarget "newHellowWorldTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1C53641EB33D0C00EB6D59 /* Debug */,
+				EA1C53651EB33D0C00EB6D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA1C53661EB33D0C00EB6D59 /* Build configuration list for PBXNativeTarget "newHellowWorldTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1C53671EB33D0C00EB6D59 /* Debug */,
+				EA1C53681EB33D0C00EB6D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA1C533F1EB33D0B00EB6D59 /* newHellowWorldText.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA1C53401EB33D0B00EB6D59 /* newHellowWorldText.xcdatamodel */,
+			);
+			currentVersion = EA1C53401EB33D0B00EB6D59 /* newHellowWorldText.xcdatamodel */;
+			path = newHellowWorldText.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA1C53281EB33D0A00EB6D59 /* Project object */;
+}
